@@ -13,6 +13,7 @@
             background-repeat: no-repeat;
             background-size: cover;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-top: 50px;
         }
 
         h1{ 
@@ -25,6 +26,7 @@
             margin: 20px;
             padding: 20px 60px;
             background-color: rgba(87, 87, 87, 0.5);
+            border-radius: 2%;
         }
 
         .container-sosmed{
@@ -32,31 +34,25 @@
             justify-content: center;
         }
         .container-sosmed a img{
-            width: 50px;
-            height: 50px;
+            width: 40px;
+            height: 40px;
             margin-left: 10px;
             margin-right: 10px;
             transition: 0.5s;
         }
         .container-sosmed a img:hover{
-            width: 50px;
-            height: 50px;
+            width: 40px;
+            height: 40px;
             margin-left: 10px;
             margin-right: 10px;
             transition: 0.5s;
             margin-top: -10px;
         }
 
-        .container2{
-            display: flex;
-        }
-    
-        .container2 .titik-dua{
-            margin-left: 40px;
-            /* margin-right: 10px; */
-        }
-        .container2 .komponen{
-            font-weight: bolder;
+        p{
+            font-weight: normal;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 18px;
         }
 
         .container .border .img center img{
@@ -66,7 +62,7 @@
             transition: 0.5s;
         }
         .container .border .img center img:hover{
-            border-radius: 0px;
+            border-radius: 15px;
             height: 200px;
             width: 200px;        
         }
@@ -75,22 +71,33 @@
             border: 3px solid rgba(233, 230, 230, 0.6);
             padding: 50px;
             border-radius: 5px;
-            width: 100%;
+            width: 28%;
         }
         .container .border h1{
             color: white;
         }
 
         .container .biodata {
-            margin-left: 10%;
+            margin-left: 5%;
             color: white;
+        }
+
+        .content{
+            display: table;
+        }
+
+        .content p{
+            display: table-row;
+        }
+
+        .content b{
+            display: table-cell;
+            padding-right: 1em;
         }
 
     </style>
 </head>
 <body background="67ed11fc-1e54-4cc8-84ae-52304d801a69 (1).webp">
-        <center><h1>BIODATA</h1></center>
-        <hr>
         <div class="container">
             <div class="border">
                 <div class="img">
@@ -100,26 +107,19 @@
                 </div>
             </div>
             <div class="biodata">
-                <h2 style="color:yellow">Tentang Saya</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur ducimus rerum totam odit qui amet, sequi eos cumque excepturi molestias quisquam nam similique quas porro, fugit blanditiis, perspiciatis deserunt hic.</p>
+                <center><h1 style="color:yellow">BIODATA</h1></center>
                 <hr>
-                <div class="container2">
-                    <div class="komponen">
-                        <p>Kelas</p>
-                        <p>NIM</p>
-                        <p>TTL</p>
-                        <p>Alamat</p>
-                        <p>Hobi</p>
-                    </div>
-                    <div class="titik-dua">
-                        <p>: 3A Bisnis Digital</p>
-                        <p>: E030422015</p>
-                        <p>: Banjarmasin, 04-04-2004</p>
-                        <p>: Jalan Padat Karya Komplek Purnama Permai 3 Jalur 7B</p>
-                        <p>: Mendengarkan musik, badminton, coding</p>
-                    </div>
+                <br>
+                <div class="content">
+                    <p><b>Kelas</b>    : 3A Bisnis Digital</p><br>
+                    <p><b>NIM</b>      : E030422015</p><br>
+                    <p><b>TTL</b>      : Banjarmasin, 04-04-2004</p><br>
+                    <p><b>Alamat</b>   : Jalan Padat Karya Komplek Purnama Permai 3 Jalur 7B No.313</p><br>
+                    <p><b>Hobi</b>     : Mendengarkan musik, badminton, coding</p><br>
                 </div>
-                <h2 style="color: yellow;">Follow Me On</h2>
+
+                <br><br><br><br><br>
+                <center><h3 style="color: yellow;">Follow Me On</h3></center>
                 <div class="container-sosmed">
                     <a href="https://www.instagram.com/morito______" target="_blank"><img src="ig-removebg-preview.png" alt=""></a>
                     <a href="https://github.com/rickosong" target="_blank"><img src="ig.png" alt="" style="border-radius: 150px;"></a>
